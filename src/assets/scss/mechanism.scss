@@ -1,0 +1,39 @@
+.container {
+  background: url("../assets/image/bg.jpg");
+  .content {
+    margin-top: 20px;
+    background: #fff;
+    img {
+      width: 100%;
+      height: 15px;
+    }
+    .content-left {
+      float: left;
+      width: 20%;
+      height: 100%;
+      color: #000;
+      font-size: 15px;
+      line-height: 30px;
+      padding: 40px 15px 20px;
+      border-right: 1px solid #eee;
+    }
+    .content-right {
+      width: 70%;
+      height: 100%;
+      font-size: 14px;
+      line-height: 30px;
+      color: #626262;
+      padding: 20px 35px;
+    }
+    .right-title {
+      width: 73px;
+      height: 38px;
+      display: block;
+      font-size: 18px;
+      transition: none;
+      color: #000;
+      margin: 10px;
+      background: url("../assets/image/lbtitbg.png") no-repeat center bottom;
+    }
+  }
+}
